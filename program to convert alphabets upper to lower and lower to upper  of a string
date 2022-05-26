@@ -1,0 +1,9 @@
+s=input()
+c=''
+for  i in range(len(s)):
+    a=s[i]
+    if s[i]>='a' and  s[i]<='z':
+        c=c+chr(ord(a)-32)
+    else:
+        c=c+chr(ord(a)+32)
+print(c)
