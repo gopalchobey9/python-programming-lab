@@ -1,0 +1,7 @@
+s=input()
+digit='123456789'
+c=0
+for i in s:
+    if i in digit:
+        c+=1
+print('  digits are->',c,)
