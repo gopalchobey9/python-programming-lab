@@ -1,0 +1,3 @@
+ls=['gopal','ram','mohanshaym']
+ls.sort()
+print(ls)
