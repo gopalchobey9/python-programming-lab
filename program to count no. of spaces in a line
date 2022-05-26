@@ -1,0 +1,7 @@
+s=input()
+space=' '
+d=0
+for i in s:
+    if i==space:
+        d+=1
+print('spaces are ->',d)
