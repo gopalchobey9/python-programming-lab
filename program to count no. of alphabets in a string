@@ -1,0 +1,7 @@
+s=input()
+vowel='aeiouAEIOU'
+e=0
+for i in s:
+    if i in vowel:
+        e+=1
+print('vowels are->',e)
