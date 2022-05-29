@@ -1,0 +1,8 @@
+ls=list(map(int,input().split()))
+one=[]
+c=0
+for i in ls:
+    if i not in one:
+        c+=1
+        one.append(i)
+print(f"the unique value is ={c}")
