@@ -1,0 +1,7 @@
+one=list(map(int,input().split()))
+m=[]
+n=len(one)
+for i in one:
+    if i!=0:
+       m.append(i) 
+print(m)
